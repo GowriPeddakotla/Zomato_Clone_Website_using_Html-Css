@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        h1{
+            margin-top: 100px;
+            margin-left: 475px;
+        }
+        form input {
+            margin-top: 15px;
+            width: 25%;
+            margin-left: 475px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        #button2{
+            width: 25%;
+            margin-left: 475px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #e55858;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #e55858; 
+            color: white; 
+            cursor:pointer;
+        }
+        #button2:hover{
+            background-color: #e5442b; 
+        }
+        h1{
+            margin-top: 100px;
+            margin-left: 475px;
+        }
+        form input {
+            width: 25%;
+            margin-left: 475px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        #input3{
+            margin-left: 330px;
+        }
+        #button2{
+            width: 25%;
+            margin-left: 475px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #e55858;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #e55858; 
+            color: white; 
+            cursor:pointer;
+            margin-top: 15px;
+        }
+        #button2:hover{
+            background-color: #e5442b; 
+        }
+        .button1{
+            width: 25%;
+            margin-left: 475px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid lightgrey;
+            border-radius: 5px;
+            font-size: 16px;
+            color: grey; 
+            cursor:pointer;
+        }
+        #a9{
+            text-decoration: none;
+            color: rgb(231, 74, 100);
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body style="background-color: beige;">
+    <h1>Sign Up</h1>
+    <form action="registered.html">
+        <input type="text" placeholder="Full Name" pattern="[A-Za-z]{3,9}" required>
+        <input type="email" placeholder="Email" required>
+        <input type="checkbox" id="input3">
+        <label>I agree to Zomato's <a href="#" id="a9">Terms of Service, </a><br><a href="#" id="a9" style=" margin-left: 510px;">Privacy Policy </a>
+            and <a href="#" id="a9">Content Policies</a></label><br>
+        <button id="button2">Create Account</button>
+        <p style="margin-left: 640px; font-size: 20px;">or</p>
+        <button class="button1">Continue with google</button>
+    </form>
+    <p style="margin-top: 25px; margin-left: 475px; font-size: 18px;">Already have an Account?<a href="login.html" id="a9">Login</a></p>
+
+</body>
+</html>

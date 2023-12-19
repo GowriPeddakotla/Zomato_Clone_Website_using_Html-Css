@@ -1,0 +1,118 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.ul1{
+    list-style-type: none;
+    margin-right: 20px;
+}
+#li1,#a1{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    float: left;
+    padding-top: 6px;
+}
+#zomato_icon{
+    padding-left: 400px;
+    padding-top: 30px;
+}
+#discover{
+    font-size: 27px; 
+    color: white;
+    padding-left: 240px;
+    padding-top: 0px;
+    font-family: serif;
+}
+form input {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.zoom-out-image {
+    width: 250px; 
+    height: 140px; 
+    transition: transform 0.3s ease; 
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.zoom-out-image:hover {
+    transform: scale(1.04); 
+}
+#li2,#a2 {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+  
+}
+.lists-container {
+    display: flex; 
+}
+.img_collec{
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 7px;
+}
+.image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 10px; 
+    box-sizing: border-box;
+}
+#a3{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;   
+}
+#a4{
+    text-decoration: none;
+    font-size: 15px;
+    color: grey;
+}
+#a4:hover{
+    color: black;
+}
+table {
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+th, td {
+    padding: 0px;
+    text-align: left;
+}
+td + td, th + th {
+    padding-left: 60px; 
+}
+footer{
+    color: grey;
+    font-size: 13px;
+}
+#div1 {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+.zoom-out-image1 {
+    width: 250px; 
+    height: 140px; 
+    transition: transform 0.3s ease; 
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.zoom-out-image1:hover {
+    transform: scale(1.01); 
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: white;
+}

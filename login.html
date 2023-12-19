@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        h1{
+            margin-top: 100px;
+            margin-left: 475px;
+        }
+        form input {
+            width: 25%;
+            margin-left: 475px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        #button2{
+            width: 25%;
+            margin-left: 475px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #e55858;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #e55858; 
+            color: white; 
+            cursor:pointer;
+        }
+        #button2:hover{
+            background-color: #e5442b; 
+        }
+        .button1{
+            width: 25%;
+            margin-left: 475px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid lightgrey;
+            border-radius: 5px;
+            font-size: 16px;
+            color: grey; 
+            cursor:pointer;
+        }
+        #a9{
+            text-decoration: none;
+            color: rgb(231, 74, 100);
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body style="background-color: beige;">
+    <h1>Login</h1>
+    <form action="order.html">
+        <input type="text" placeholder=" +91 | Phone" pattern="[6-9]{1}[0-9]{9}" required><br><br>
+        <button id="button2">Send One Time Password</button>
+        <p style="margin-left: 620px; font-size: 20px;">or</p>
+        <button class="button1" >Continue with Email</button>  
+        <button class="button1" style ="margin-top: 18px;">Continue with Google</button> 
+    </form>
+    <p style="margin-top: 25px; margin-left: 475px;">New to Zomato?<a href="signup.html" id="a9">Create account</a></p>
+</body>
+</html>
